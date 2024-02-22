@@ -5,7 +5,7 @@ name = "davit"
 
 surname = "turiashvili"
 
-print(name)
+ # print(name)
 #პრინტ ფუნქციას გადაეცემა ეკრანზე გამოსატანი ობიექტი
 
 name = "daivt" #ეს არის str (string) ტიპის ცვლადი
@@ -35,7 +35,16 @@ isUgly = False # ჯავასკრიპტული cameLcase
 
 
 
-print(name + " " + surname + " " + str(age) + " " + str(heigh) + " " + str(knows_programming) + " " + str(is_ugly)) 
+print("hi i am:")
+print(name + " " + surname)
+print("i am:")
+print(str(age))
+print("My height is:")
+print(str(heigh))
+print("am i good in programing?")
+print(str(knows_programming))
+print("am i ugly?")
+print(str(is_ugly))
 
 
 
