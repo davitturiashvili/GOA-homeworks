@@ -8,7 +8,7 @@ required_hight = 170
 weight = int(input("What is your weight?:"))
 hight = int(input("What is your height?:"))
 
-print(required_weight >= weight or required_hight >= hight)
+print(required_weight >= weight and required_hight >= hight)
 print(required_weight == weight and required_hight == hight)
 
 

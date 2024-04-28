@@ -32,9 +32,10 @@ print(type(5.3))
 
 
 required_pushups = 100
-required_squarts = 50
+target_squarts = 50
 
 pushups = int(input("How many pushups have you done: "))
 squarts = int(input("How many squart have you done: "))
 
-print(pushups == required_pushups and squarts == required_squarts)
+print(pushups == required_pushups and squarts == target_squarts)
+

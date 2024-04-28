@@ -11,7 +11,7 @@ for i in range(20 + 1):
 a = 0
 
 for i in range(50, 100 + 1):
-    a = a + 1
+    a = a + i
 
 print(a)
 
